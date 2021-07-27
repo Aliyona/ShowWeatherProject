@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    }
+body {
+    margin: 0;
+}
+header, h1 {
+    background-color: purple;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    /* width: 500px; */
+    line-height: 50px;    
+}
+button {
+    width: 100%;
+    background-color: lightgreen;
+    border: none;
+    line-height: 50px;
+    color: chocolate;
+    font-size: 25px;
+    cursor: pointer;    
+}
+button:hover {
+    background-color: green;
+    color: darkblue;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-12 {
+    flex: 0 0 100%;
+    min-width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.weather-block {
+background-color: lightblue;
+height: 500px;
+}
+
+.img-block {
+left: 200px;
+width: 50px;
+height: 50px;
+margin: 0 auto;
+}
+.temp-block,
+.pressure-block,
+.description-block,
+.humidity-block,
+.wind-speed-block,
+.wind-degree-block,
+.statement-block {
+color: purple;
+line-height: 25px;
+font-weight: bold;
+font-size: 20px;
+text-align: left;
+}
+.statement-block {
+    text-decoration: underline;
+}
